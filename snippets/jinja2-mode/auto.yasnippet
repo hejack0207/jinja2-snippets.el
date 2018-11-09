@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 # contributor: Translated to yasnippet by sublime-snippet import
 # key: auto
-# name: Auto
+# name: Auto    
 # --
-{% autoescape ${1:True} %}
-        ${2:enter code}
-        {% endautoescape %}
+{% autoescape ${1:true$(yas-completing-read "true or false?" '("true" "false"))} %}
+${2:enter code}
+{% endautoescape %}
