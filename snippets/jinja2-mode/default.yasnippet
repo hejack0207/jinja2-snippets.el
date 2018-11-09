@@ -3,4 +3,4 @@
 # key: default
 # name: Default
 # --
-|default('$1')
+|default('${1:text}'${2:,${3:true$(yas-completing-read "true or false?" '("true" "false"))}})

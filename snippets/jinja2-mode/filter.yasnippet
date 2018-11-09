@@ -3,6 +3,6 @@
 # key: filter
 # name: Filter
 # --
-{% filter $1 %}
-        ${2:enter code}
-        {% endfilter %}
+{% filter ${1:filter name} %}
+${2:text}
+{% endfilter %}
